@@ -1,3 +1,5 @@
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " normal config
 let mapleader = ","
@@ -110,7 +112,7 @@ nnoremap <silent> <leader>tt :TagbarToggle<CR>
 
 Plugin 'easymotion/vim-easymotion'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" <leader>ww
+" CMD: <leader><leader>w
 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
@@ -172,4 +174,5 @@ colorscheme solarized
 
 Plugin 'fatih/vim-go'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" to install need execting: :GoInstallBinaries
 
