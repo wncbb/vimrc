@@ -1,4 +1,15 @@
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+"
+" https://www.cnblogs.com/ajanuw/p/9270359.html
+" sudo apt install ncurses-dev
+" wget https://github.com/vim/vim/archive/master.zip
+" unzip master.zip
+" cd vim-master
+" cd src/
+" ./configure
+" make
+" sudo make install
+" :scriptnames
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " normal config
