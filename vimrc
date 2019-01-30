@@ -20,6 +20,9 @@ set backspace=2
 set hlsearch
 set cursorline
 
+" if you get tips: can not find pacakges blabla..., use the next line
+" let $GOPATH=<the full path of the $GOPATH>
+
 
 
 
@@ -186,4 +189,7 @@ colorscheme solarized
 Plugin 'fatih/vim-go'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " to install need execting: :GoInstallBinaries
+" jump to the definition
+map <leader>d <C-]>
+map <leader>doc :GoDoc<CR>
 
