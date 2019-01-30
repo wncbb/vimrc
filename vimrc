@@ -193,8 +193,9 @@ Plugin 'fatih/vim-go'
 map <leader>d <C-]>
 map <leader>doc :GoDoc<CR>
 
-" Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " :PluginInstall
 " cd .vim/bundle/YouCompleteMe && python install.py --go-completer
+" need add $GOPATH/bin $GOROOT/bin to the $PATH
 
