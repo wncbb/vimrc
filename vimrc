@@ -20,8 +20,6 @@ set backspace=2
 set hlsearch
 set cursorline
 
-" if you get tips: can not find pacakges blabla..., use the next line
-" let $GOPATH=<the full path of the $GOPATH>
 
 
 
@@ -196,6 +194,15 @@ map <leader>doc :GoDoc<CR>
 Plugin 'Valloric/YouCompleteMe'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " :PluginInstall
+"
 " cd .vim/bundle/YouCompleteMe && python install.py --go-completer
 " need add $GOPATH/bin $GOROOT/bin to the $PATH
-
+"
+" if you get tips: can not find pacakges blabla..., use the next line
+" 
+" let $GOPATH=<the full path of the $GOPATH>
+" let $GOROOT=<the full path of the $GOROOT>
+"
+" 代码提示，只会去搜$GOPATH or $GOROOT下的pkg里二进制文件的标识符
+" 因此，如果没有代码提示，到对应的包下，执行go build && go install
+"
