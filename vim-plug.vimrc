@@ -31,7 +31,9 @@ map <leader>doc :GoDoc<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " go代码提示
-" Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
+Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
+imap <tab><tab> <c-x><c-o>
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'kien/ctrlp.vim'
