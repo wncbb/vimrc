@@ -1,3 +1,10 @@
+## mac工具
+* alfred
+
+## chrome插件
+fireshot 截屏
+Vimium++
+
 
 ## vimrc
 
