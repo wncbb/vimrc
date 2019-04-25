@@ -19,6 +19,7 @@ syntax on
 set backspace=2
 set hlsearch
 set cursorline
+set cursorcolumn
 
 
 
