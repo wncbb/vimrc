@@ -50,7 +50,6 @@ map <leader>doc :GoDoc<CR>
 Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
 imap <tab><tab> <c-x><c-o>
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'kien/ctrlp.vim'
 let g:ctrlp_map = '<c-p>'
@@ -111,46 +110,21 @@ Plug 'easymotion/vim-easymotion'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" need to reboot to make new fonts to work
+" apt-get install fonts-powerline
 let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline#extensions#tabline#formatter = 'default'
-" sudo apt-get install fonts-powerline
-" air-line
+" let g:airline#extensions#tabline#left_sep = ' '
+" let g:airline#extensions#tabline#left_alt_sep = '|'
+" let g:airline#extensions#tabline#formatter = 'default'
 let g:airline_powerline_fonts = 1
-if !exists('g:airline_symbols')
-    let g:airline_symbols = {}
-endif
-" unicode symbols
-let g:airline_left_sep = '»'
-let g:airline_left_sep = '▶'
-let g:airline_right_sep = '«'
-let g:airline_right_sep = '◀'
-let g:airline_symbols.linenr = '␊'
-let g:airline_symbols.linenr = '␤'
-let g:airline_symbols.linenr = '¶'
-let g:airline_symbols.branch = '⎇'
-let g:airline_symbols.paste = 'ρ'
-let g:airline_symbols.paste = 'Þ'
-let g:airline_symbols.paste = '∥'
-let g:airline_symbols.whitespace = 'Ξ'
-" airline symbols
-let g:airline_left_sep = ''
-let g:airline_left_alt_sep = ''
-let g:airline_right_sep = ''
-let g:airline_right_alt_sep = ''
-let g:airline_symbols.branch = ''
-let g:airline_symbols.readonly = ''
-let g:airline_symbols.linenr = ''
-" https://github.com/vim-airline/vim-airline-themes/tree/master/autoload/airline/themes
-" let g:airline_theme='gruvbox'
-" let g:airline_theme='base16_solarized'
+" https://github.com/vim-airline/vim-airline/wiki/Screenshots
+let g:airline_theme='luna'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-Plug 'altercation/vim-colors-solarized'
+"Plug 'altercation/vim-colors-solarized'
 " mkdir -p ~/.vim/colors && cp ~/.vim/plugged/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/solarized.vim
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Plug 'Valloric/YouCompleteMe'
@@ -164,3 +138,4 @@ colorscheme solarized
 " let g:sneak#label = 1
 
 call plug#end()
+
